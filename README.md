@@ -3,6 +3,27 @@ DedSec Media Player 3.0 is a secure desktop media player designed for organizati
 
 # DedSec Media Player 3.0
 
+
+<p align="center">
+  <img src="design.svg" alt="DedSec Media Player 3.0" width="100%">
+</p>
+
+<h1 align="center">DedSec Media Player 3.0</h1>
+
+<p align="center">
+  <strong>Highly Protected Encrypted Media Player</strong><br>
+  Secure • Encrypted • Hardware Bound • Enterprise Ready
+</p>
+
+---
+
+## Features
+
+- 🔒 Encrypted Video Playback
+- 🖥️ Hardware ID Licensing
+- 🛡️ Multi-layer Protection
+- 📹 Secure Playback
+- ⚡ High Performance
 ## Highly Protected Encrypted Media Player
 
 
