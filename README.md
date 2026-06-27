@@ -1,4 +1,4 @@
-# DedSec-Media-Player
+# DedSec Media Player
 DedSec Media Player 3.0 is a secure desktop media player designed for organizations, educators, and content creators who need controlled offline or online distribution of premium video content.
 
 
@@ -175,7 +175,7 @@ While the application implements multiple security mechanisms, no client-side so
 
 # Contact
 
-For commercial licensing, enterprise deployments, or custom secure media player development, please contact us through GitHub or your preferred business communication channel.
+For commercial licensing, enterprise deployments, or custom secure media player development, please contact us through GitHub or your preferred business communication channel. dedsee3c@gmail.com
 
 ---
 
