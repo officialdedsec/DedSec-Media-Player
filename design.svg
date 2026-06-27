@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="880" viewBox="0 0 1260 880" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e0e13"/><stop offset="1" stop-color="#05050a"/></linearGradient>
+    <linearGradient id="video" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10212b"/><stop offset="0.55" stop-color="#161226"/><stop offset="1" stop-color="#0a0a12"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d1d24"/><stop offset="1" stop-color="#16161b"/></linearGradient>
+    <linearGradient id="logoD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef2f6"/><stop offset="1" stop-color="#9aa3ad"/></linearGradient>
+    <linearGradient id="logoTri" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a7bff"/><stop offset="1" stop-color="#7b3cff"/></linearGradient>
+    <radialGradient id="bokeh" cx="0.3" cy="0.3" r="0.8"><stop offset="0" stop-color="#1c5cff" stop-opacity="0.18"/><stop offset="1" stop-color="#1c5cff" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.55"/></filter>
+  </defs>
+
+  <rect width="1260" height="880" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="40" width="1180" height="760" rx="10" fill="#0b0b10" stroke="#2a2a33" stroke-width="1"/>
+
+    <!-- title bar -->
+    <rect x="40" y="40" width="1180" height="34" rx="10" fill="url(#title)"/>
+    <rect x="40" y="58" width="1180" height="16" fill="#16161b"/>
+    <g transform="translate(58,46)">
+      <rect x="-2" y="-2" width="24" height="24" rx="5" fill="#0c0c12" stroke="#3b3b46" stroke-width="0.6"/>
+      <path d="M2 1 H11 a8.5 8.5 0 0 1 0 19 H2 Z M5.5 4.2 V16.8 H11 a6.3 6.3 0 0 0 0 -12.6 Z" fill="url(#logoD)"/>
+      <path d="M7.5 6.3 L14.5 10.4 L7.5 14.5 Z" fill="url(#logoTri)"/>
+    </g>
+    <text x="92" y="62" fill="#e7e7ee" font-size="14" font-weight="600">DedSec Media Player  —  Lesson-03.ded</text>
+    <text x="1158" y="62" fill="#cfcfd8" font-size="16">&#8211;</text>
+    <text x="1196" y="63" fill="#e0a0a0" font-size="15">&#10005;</text>
+
+    <!-- menu bar -->
+    <rect x="40" y="74" width="1180" height="28" fill="#1b1b22"/>
+    <text x="62"  y="93" fill="#cfcfd8" font-size="13.5">File</text>
+    <text x="112" y="93" fill="#cfcfd8" font-size="13.5">License</text>
+    <text x="186" y="93" fill="#cfcfd8" font-size="13.5">Help</text>
+    <rect x="40" y="101" width="1180" height="1" fill="#2a2a33"/>
+
+    <!-- video area -->
+    <rect x="40" y="102" width="1180" height="626" fill="url(#video)"/>
+    <ellipse cx="360" cy="300" rx="420" ry="320" fill="url(#bokeh)"/>
+    <ellipse cx="980" cy="560" rx="360" ry="300" fill="url(#bokeh)"/>
+    <g opacity="0.10" fill="#ffffff">
+      <rect x="150" y="200" width="380" height="14" rx="7"/>
+      <rect x="150" y="230" width="520" height="14" rx="7"/>
+      <rect x="150" y="260" width="300" height="14" rx="7"/>
+      <rect x="150" y="300" width="460" height="14" rx="7"/>
+      <rect x="150" y="330" width="240" height="14" rx="7"/>
+    </g>
+
+    <!-- moving Hardware-ID watermark -->
+    <text x="905" y="195" fill="#ffffff" opacity="0.42" font-size="15" font-weight="600">ID 7K2Q</text>
+    <text x="300" y="610" fill="#ffffff" opacity="0.16" font-size="15" font-weight="600">ID 7K2Q</text>
+
+    <!-- centered translucent PAUSE overlay -->
+    <g transform="translate(630,415)">
+      <circle r="50" fill="#f5f5f8" opacity="0.80"/>
+      <path d="M-16 -24 L-16 24 L26 0 Z" fill="#14141c" opacity="0.92"/>
+    </g>
+
+    <!-- control bar -->
+    <rect x="40" y="728" width="1180" height="72" fill="#16161a"/>
+
+    <!-- seek slider -->
+    <rect x="54" y="744" width="1152" height="6" rx="3" fill="#3a3a44"/>
+    <rect x="54" y="744" width="403" height="6" rx="3" fill="#00aa8c"/>
+    <circle cx="457" cy="747" r="7" fill="#f0f0f6" stroke="#00aa8c" stroke-width="1.5"/>
+
+    <!-- transport + time -->
+    <g transform="translate(0,777)">
+      <path d="M62 -10 L62 10 L80 0 Z" fill="#e4e4eb"/>
+      <rect x="104" y="-9" width="18" height="18" rx="2" fill="#e4e4eb"/>
+      <text x="150" y="5" fill="#c8c8d2" font-size="14">1:24 / 4:07</text>
+    </g>
+
+    <!-- right cluster -->
+    <g transform="translate(0,777)">
+      <rect x="860" y="-3" width="210" height="6" rx="3" fill="#3a3a44"/>
+      <rect x="860" y="-3" width="147" height="6" rx="3" fill="#0096cd"/>
+      <circle cx="1007" cy="0" r="7" fill="#f0f0f6" stroke="#0096cd" stroke-width="1.5"/>
+      <g transform="translate(1092,0)" fill="#e4e4eb">
+        <rect x="-9" y="-4" width="4" height="8"/>
+        <path d="M-5 -4 L2 -9 L2 9 L-5 4 Z"/>
+        <path d="M5 -5 A7 7 0 0 1 5 5" fill="none" stroke="#e4e4eb" stroke-width="2"/>
+        <path d="M8 -8 A11 11 0 0 1 8 8" fill="none" stroke="#e4e4eb" stroke-width="2"/>
+      </g>
+      <g transform="translate(1166,0)" stroke="#e4e4eb" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M-9 -4 L-9 -9 L-4 -9"/>
+        <path d="M4 -9 L9 -9 L9 -4"/>
+        <path d="M9 4 L9 9 L4 9"/>
+        <path d="M-4 9 L-9 9 L-9 4"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="630" y="852" text-anchor="middle" fill="#6f6f7c" font-size="15">DedSec Media Player 3.0 — paused state: centered play overlay, drifting Hardware-ID watermark, slider controls</text>
+</svg>
